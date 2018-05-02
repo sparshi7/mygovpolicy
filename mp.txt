@@ -1,0 +1,404 @@
+/*while ($row1 = mysql_fetch_assoc($r1))
+{ 
+echo '<tr>
+
+<td>'.$row1['year'].'</td> 
+<td>'.$row1['sect_name'].'</td> 
+<td>'.$row1['pol_name'].'</td>
+<td>'.$row1['main_obj'].'</td> 
+<td>'.$row1['descp'].'</td> 
+<td>'.$row1['off_site'].'</td> 
+<td>'.$row1['dept_name'].'</td> 
+<td>'.$row1['minister_name'].'</td> 
+
+</tr>'; 
+}
+
+
+while ($r2 = mysql_fetch_assoc($r2))
+{ 
+echo '<tr>
+
+				<td>'.$row2['year'].'</td> 
+				<td>'.$row2['sect_name'].'</td> 
+				<td>'.$row2['pol_name'].'</td>
+				<td>'.$row2['main_obj'].'</td> 
+				<td>'.$row2['descp'].'</td> 
+				<td>'.$row2['off_site'].'</td> 
+				<td>'.$row2['dept_name'].'</td> 
+				<td>'.$row2['minister_name'].'</td> 
+
+</tr>'; 
+}
+
+
+while ($row3 = mysql_fetch_assoc($r3))
+{ 
+				echo '<tr>
+
+				<td>'.$row3['year'].'</td> 
+				<td>'.$row3['sect_name'].'</td> 
+				<td>'.$row3['pol_name'].'</td>
+				<td>'.$row3['main_obj'].'</td> 
+				<td>'.$row3['descp'].'</td> 
+				<td>'.$row3['off_site'].'</td> 
+				<td>'.$row3['dept_name'].'</td> 
+				<td>'.$row3['minister_name'].'</td> 
+
+				</tr>'; 
+}
+
+
+while ($row4 = mysql_fetch_assoc($r4))
+{ 
+echo '<tr>
+
+<td>'.$row4['year'].'</td> 
+<td>'.$row4['sect_name'].'</td> 
+<td>'.$row4['pol_name'].'</td>
+<td>'.$row4['main_obj'].'</td> 
+<td>'.$row4['descp'].'</td> 
+<td>'.$row4['off_site'].'</td> 
+<td>'.$row4['dept_name'].'</td> 
+<td>'.$row4['minister_name'].'</td> 
+
+</tr>'; 
+}
+
+while ($row5 = mysql_fetch_assoc($r5))
+{ 
+			echo '<tr>
+
+			<td>'.$row5['year'].'</td> 
+			<td>'.$row5['sect_name'].'</td> 
+			<td>'.$row5['pol_name'].'</td>
+			<td>'.$row5['main_obj'].'</td> 
+			<td>'.$row5['descp'].'</td> 
+			<td>'.$row5['off_site'].'</td> 
+			<td>'.$row5['dept_name'].'</td> 
+			<td>'.$row5['minister_name'].'</td> 
+
+			</tr>'; 
+}
+
+
+while ($row6 = mysql_fetch_assoc($r6))
+{ 
+			echo '<tr>
+
+			<td>'.$row6['year'].'</td> 
+			<td>'.$row6['sect_name'].'</td> 
+			<td>'.$row6['pol_name'].'</td>
+			<td>'.$row6['main_obj'].'</td> 
+			<td>'.$row6['descp'].'</td> 
+			<td>'.$row6['off_site'].'</td> 
+			<td>'.$row6['dept_name'].'</td> 
+			<td>'.$row6['minister_name'].'</td> 
+
+			</tr>'; 
+}
+
+
+while ($row7 = mysql_fetch_assoc($r7))
+{ 
+echo '<tr>
+
+<td>'.$row7['year'].'</td> 
+<td>'.$row7['sect_name'].'</td> 
+<td>'.$row7['pol_name'].'</td>
+<td>'.$row7['main_obj'].'</td> 
+<td>'.$row7['descp'].'</td> 
+<td>'.$row7['off_site'].'</td> 
+<td>'.$row7['dept_name'].'</td> 
+<td>'.$row7['minister_name'].'</td> 
+
+</tr>'; 
+}
+
+
+while ($row8 = mysql_fetch_assoc($r8))
+{ 
+			echo '<tr>
+
+			<td>'.$row8['year'].'</td> 
+			<td>'.$row8['sect_name'].'</td> 
+			<td>'.$row8['pol_name'].'</td>
+			<td>'.$row8['main_obj'].'</td> 
+			<td>'.$row8['descp'].'</td> 
+			<td>'.$row8['off_site'].'</td> 
+			<td>'.$row8['dept_name'].'</td> 
+			<td>'.$row8['minister_name'].'</td> 
+
+			</tr>'; 
+}
+
+
+while ($row9 = mysql_fetch_assoc($r9))
+{ 
+			echo '<tr>
+
+			<td>'.$row9['year'].'</td> 
+			<td>'.$row9['sect_name'].'</td> 
+			<td>'.$row9['pol_name'].'</td>
+			<td>'.$row9['main_obj'].'</td> 
+			<td>'.$row9['descp'].'</td> 
+			<td>'.$row9['off_site'].'</td> 
+			<td>'.$row9['dept_name'].'</td> 
+			<td>'.$row9['minister_name'].'</td> 
+
+			</tr>'; 
+}
+
+while ($row10 = mysql_fetch_assoc($r10))
+{ 
+			echo '<tr>
+
+			<td>'.$row10['year'].'</td> 
+			<td>'.$row10['sect_name'].'</td> 
+			<td>'.$row10['pol_name'].'</td>
+			<td>'.$row10['main_obj'].'</td> 
+			<td>'.$row10['descp'].'</td> 
+			<td>'.$row['off_site'].'</td> 
+			<td>'.$row10['dept_name'].'</td> 
+			<td>'.$row10['minister_name'].'</td> 
+
+			</tr>'; 
+}
+
+
+*/
+/*
+
+
+if($r1==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c1=mysql_num_rows($r1);
+				if($c1==1){
+							echo '<tr> 
+
+							<td>'.$row1['pol_name'].'</td>
+							<td>'.$row1['year'].'</td>
+							<td>'.$row1['main_obj'].'</td> 
+							<td>'.$row1['descp'].'</td> 
+							<td>'.$row1['off_site'].'</td> 
+							<td>'.$row1['sect_name'].'</td> 
+							<td>'.$row1['dept_name'].'</td> 
+							<td>'.$row1['minister_name'].'</td> 
+							</tr>';
+				}
+				else{
+					
+				}
+	}
+	
+if($r2==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c2=mysql_num_rows($r2);
+				if($c2==1){
+
+
+						echo '<tr> 
+
+						<td>'.$row2['pol_name'].'</td>
+						<td>'.$row2['year'].'</td>
+						<td>'.$row2['main_obj'].'</td> 
+						<td>'.$row2['descp'].'</td> 
+						<td>'.$row2['off_site'].'</td> 
+						<td>'.$row2['sect_name'].'</td> 
+						<td>'.$row2['dept_name'].'</td> 
+						<td>'.$row2['minister_name'].'</td> 
+						</tr>';
+				}
+}
+
+						
+	
+if($r3==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c3=mysql_num_rows($r3);
+				if($c3==1){
+
+							echo '<tr> 
+
+							<td>'.$row3['pol_name'].'</td>
+							<td>'.$row3['year'].'</td>
+							<td>'.$row3['main_obj'].'</td> 
+							<td>'.$row3['descp'].'</td> 
+							<td>'.$row3['off_site'].'</td> 
+							<td>'.$row3['sect_name'].'</td> 
+							<td>'.$row3['dept_name'].'</td> 
+							<td>'.$row3['minister_name'].'</td> 
+							</tr>';
+				}
+}
+
+
+	
+if($r4==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c4=mysql_num_rows($r4);
+				if($c4==1){				
+
+							
+							echo '<tr> 
+
+							<td>'.$row4['pol_name'].'</td>
+							<td>'.$row4['year'].'</td>
+							<td>'.$row4['main_obj'].'</td> 
+							<td>'.$row4['descp'].'</td> 
+							<td>'.$row4['off_site'].'</td> 
+							<td>'.$row4['sect_name'].'</td> 
+							<td>'.$row4['dept_name'].'</td> 
+							<td>'.$row4['minister_name'].'</td> 
+							</tr>';
+
+				}
+}
+
+	
+if($r5==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c5=mysql_num_rows($r5);
+				if($c5==1){				
+
+
+							echo '<tr> 
+
+							<td>'.$row5['pol_name'].'</td>
+							<td>'.$row5['year'].'</td>
+							<td>'.$row5['main_obj'].'</td> 
+							<td>'.$row5['descp'].'</td> 
+							<td>'.$row5['off_site'].'</td> 
+							<td>'.$row5['sect_name'].'</td> 
+							<td>'.$row5['dept_name'].'</td> 
+							<td>'.$row5['minister_name'].'</td> 
+							</tr>';
+				}
+}
+
+	
+if($r6==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c6=mysql_num_rows($r6);
+				if($c6==1){				
+
+
+							echo '<tr> 
+
+							<td>'.$row6['pol_name'].'</td>
+							<td>'.$row6['year'].'</td>
+							<td>'.$row6['main_obj'].'</td> 
+							<td>'.$row6['descp'].'</td> 
+							<td>'.$row6['off_site'].'</td> 
+							<td>'.$row6['sect_name'].'</td> 
+							<td>'.$row6['dept_name'].'</td> 
+							<td>'.$row6['minister_name'].'</td> 
+							</tr>'; 
+				}
+}
+
+	
+if($r7==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c7=mysql_num_rows($r7);
+				if($c7==1){
+
+
+							echo '<tr> 
+
+							<td>'.$row7['pol_name'].'</td>
+							<td>'.$row7['year'].'</td>
+							<td>'.$row7['main_obj'].'</td> 
+							<td>'.$row7['descp'].'</td> 
+							<td>'.$row7['off_site'].'</td> 
+							<td>'.$row7['sect_name'].'</td> 
+							<td>'.$row7['dept_name'].'</td> 
+							<td>'.$row7['minister_name'].'</td> 
+							</tr>'; 
+				}
+}
+
+	
+if($r8==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c8=mysql_num_rows($r8);
+				if($c8==1){
+
+
+						echo '<tr> 
+
+						<td>'.$row8['pol_name'].'</td>
+						<td>'.$row8['year'].'</td>
+						<td>'.$row8['main_obj'].'</td> 
+						<td>'.$row8['descp'].'</td> 
+						<td>'.$row8['off_site'].'</td> 
+						<td>'.$row8['sect_name'].'</td> 
+						<td>'.$row8['dept_name'].'</td> 
+						<td>'.$row8['minister_name'].'</td> 
+						</tr>'; 
+				}
+}
+
+
+	
+if($r9==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c9=mysql_num_rows($r9);
+				if($c9==1){
+
+						
+						echo '<tr> 
+
+						<td>'.$row9['pol_name'].'</td>
+						<td>'.$row9['year'].'</td>
+						<td>'.$row9['main_obj'].'</td> 
+						<td>'.$row9['descp'].'</td> 
+						<td>'.$row9['off_site'].'</td> 
+						<td>'.$row9['sect_name'].'</td> 
+						<td>'.$row9['dept_name'].'</td> 
+						<td>'.$row9['minister_name'].'</td> 
+						</tr>'; 
+				}
+}
+
+
+	
+if($r10==FALSE)
+			echo mysql_error() . '<br>';
+else{
+				$c10=mysql_num_rows($r10);
+				if($c10==1){
+
+
+							echo '<tr> 
+
+							<td>'.$row10['pol_name'].'</td>
+							<td>'.$row10['year'].'</td>
+							<td>'.$row10['main_obj'].'</td> 
+							<td>'.$row10['descp'].'</td> 
+							<td>'.$row10['off_site'].'</td> 
+							<td>'.$row10['sect_name'].'</td> 
+							<td>'.$row10['dept_name'].'</td> 
+							<td>'.$row10['minister_name'].'</td> 
+							</tr>'; 
+				}
+}
+
+
+echo '</table>';
+
+*/
+
+
+
+
+ 
